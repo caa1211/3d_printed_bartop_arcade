@@ -18,8 +18,8 @@
 * [街機搖杆芯片 2P線x10 5p線x1](https://item.taobao.com/item.htm?id=525916540740)
 * [搖杆](https://item.taobao.com/item.htm?id=575008844746) (可換三和)
 * [24mm按鈕 x 8](https://item.taobao.com/item.htm?id=617646767295) (可換三和)
-* [鏍絲 m3x8 x 12](https://detail.tmall.com/item.htm?id=602980250427)
-* [鏍絲 m2.5x6 x 4](https://detail.tmall.com/item.htm?id=617769020674) (固定樹莓派)
+* [螺絲 m3x8 x 12](https://detail.tmall.com/item.htm?id=602980250427)
+* [螺絲 m2.5x6 x 4](https://detail.tmall.com/item.htm?id=617769020674) (固定樹莓派)
 * [m3腳墊 16mm圓](https://detail.tmall.com/item.htm?id=615675530996)
 * [USB 20cm 彎頭 x 2](https://item.taobao.com/item.htm?id=596748753207) (爭取框體內空間)
 * 鐵氟龍膠帶或[絕緣膠帶](https://detail.tmall.com/item.htm?id=35302386191)
@@ -39,6 +39,8 @@
 * [木製搖杆頭](https://item.taobao.com/item.htm?id=585770082174)
 
 # 組裝
+
+> 組裝過程需要H2.0內6角螺絲起子
 
 ![image](https://user-images.githubusercontent.com/1962079/118122815-f3159680-b425-11eb-9ce2-a78e37b24ced.png)
 
@@ -67,16 +69,34 @@
 
 
 # 軟體部分
-* 以下二擇一
-  - [64gb Wolfanoz](https://www.arcadepunks.com/new-pi-4-retro-gaming-64gb-build-20-classic-gaming-systems/)
-  - [256gb Wolfanoz](https://www.arcadepunks.com/256gb-fully-loaded-supreme-pro-raspberry-pi-4-image-from-wolfanoz/)
+* 推薦以下三擇一
+  - [官方 Retropie 乾靜系統](https://retropie.org.uk/download/)
+  - [64gb Wolfanoz 含rom](https://www.arcadepunks.com/new-pi-4-retro-gaming-64gb-build-20-classic-gaming-systems/)
+  - [256gb Wolfanoz 含rom](https://www.arcadepunks.com/256gb-fully-loaded-supreme-pro-raspberry-pi-4-image-from-wolfanoz/)
 * 使用 [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) 寫入即可
 
 # wifi 設定
-* 依照[官方文件](https://retropie.org.uk/docs/Wifi/)設定，請記得一定要設定 WLAN Country 為 **TW**，過程中需要輸入，建議準備藍芽鍵盤
-* 藍芽鍵盤連線: https://retropie.org.uk/docs/Bluetooth-Controller/
+* 依照[官方文件](https://retropie.org.uk/docs/Wifi/)設定，請記得一定要設定 WLAN Country 為 **TW**，過程中需要輸入，建議準備藍芽鍵盤或使用USB鍵盤。
+
+
+# 藍芽鍵盤連線
+* [官方文件](https://retropie.org.uk/docs/Bluetooth-Controller/)
 ![image](https://user-images.githubusercontent.com/1962079/118124784-a8e1e480-b428-11eb-85ea-d17055d88af8.png)
 
+# PS3藍芽手把安裝
+* [官方文件](https://retropie.org.uk/docs/PS3-Controller/)目前推薦 sixaxis
+* 1. 先至RetroPie Setup 選 Manage packages 再選 driver
+* 2. 選 sixaxis 再選 Install from source
+* 3. 裝完後去同藍芽連線，不同的是在掃描藍芽的過程中，需要將PS3手把照畫面上指示拔插一次。
+* 4. 退回到 EmulationStations，配置 PS3 手把按鈕對應
+
+# 螢幕比例跑掉
+* 若為樹莓派輸出問題，請將 SD 卡插入 windows 系統，修改 config.txt 中的 hdmi_mode 依照螢幕的規格及[此文件](https://elinux.org/RPiconfig#Video_mode_options)給予正確設定，例如 HJ080IA-01E 是 1024x768-60Hz-4:3
+正確設定為
+```
+hdmi_mode=16
+```
+* 若為遊戲輸出的比例問題，遊戲中按下 function key + x 進入 retroarch 設定，選 Settings -> Video -> Scaling -> Aspect Ration，內有多種比例可調整，若要存為全域設定，進 Retroarch 的 Main menu 的 Configuration File，選擇 Save Current Configuration。
 
 
 # 關於我
