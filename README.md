@@ -6,7 +6,7 @@
 
 # 框體列印
 * 使用此模型列印 [simplyRetro D8 by Geaz](https://www.thingiverse.com/thing:4295854)
-* 推薦使用 [SpiderMaker 消光 PLA](https://www.3dspidermaker.com/categories/pla-matte-series) ，成品會較有質感
+* 推薦使用 [SpiderMaker 消光 PLA](https://www.3dspidermaker.com/categories/pla-matte-series)，台灣製造，高品質的3d列印線材。
 * [功放旋鈕](https://www.thingiverse.com/thing:3405786)
 
 # 零組件清單 (BOM)
