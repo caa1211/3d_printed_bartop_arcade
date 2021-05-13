@@ -1,10 +1,5 @@
 # 3D列印樹莓派街機框體 
 
- Author
- - FB: caa1211
- - Mail: caa1211@gmail.com
-
-
 ![image](https://user-images.githubusercontent.com/1962079/118118085-0709ca00-b41f-11eb-91f0-dfa96a037d11.png)
 ![image](https://user-images.githubusercontent.com/1962079/118124310-fd389480-b427-11eb-8513-bbab23090852.png)
 
@@ -82,3 +77,8 @@
 * 藍芽鍵盤連線: https://retropie.org.uk/docs/Bluetooth-Controller/
 ![image](https://user-images.githubusercontent.com/1962079/118124784-a8e1e480-b428-11eb-85ea-d17055d88af8.png)
 
+
+
+# 關於我
+* FB: caa1211
+* Mail: caa1211@gmail.com
