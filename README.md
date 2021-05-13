@@ -10,7 +10,7 @@
 * [功放旋鈕](https://www.thingiverse.com/thing:3405786)
 
 # 零組件清單 (BOM)
-* 樹莓派4B (2g/4b)
+* 樹莓派4B (2gb or 4gb)
 * [8吋螢幕 HJ080IA-01E](https://item.taobao.com/item.htm?id=638855824682) (174*136mm)
 * [螢幕驅動板 單hdmi 5v](https://item.taobao.com/item.htm?id=638855824682)
 * [焊好的喇叭](https://item.taobao.com/item.htm?id=639400661884)
