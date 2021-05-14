@@ -94,10 +94,11 @@ You can start raspi-config from the RetroPie menu in EmulationStation or from th
 # PS3藍芽手把安裝
 * [官方文件](https://retropie.org.uk/docs/PS3-Controller/)目前推薦 sixaxis 驅動，而 ps3controller 驅動對非原廠的 PS3 手把支援性可能較佳。
 * sixaxis
-  - 1. 先至RetroPie Setup 選 Manage packages 再選 driver
-  - 2. 選 sixaxis 再選 Install from source
-  - 3. 裝完後去同藍芽連線，不同的是在掃描藍芽的過程中，需要將PS3手把照畫面上指示拔插一次。
-  - 4. 退回到 EmulationStation，配置 PS3 手把按鈕對應
+  - 1. PS3手把用 USB 與樹莓派連接
+  - 2. 至RetroPie Setup 選 Manage packages 再選 driver
+  - 3. 選 sixaxis 再選 Install from source
+  - 4. 裝完後去藍芽配對，在掃描藍芽的過程中，需要將PS3手把照畫面上指示拔插一次，顯示連上後即可將 USB 拔除。
+  - 5. 退回到 EmulationStation，配置 PS3 手把按鈕對應
 
 # 螢幕無輸出
 * Pi4 有兩個 hdmi port，此情況優先換hdmi port 試試，官方預設以 hdmi0 port 輸出，為電源輸入旁邊的 hdmi 孔，客制化 image 可能會有變更。
