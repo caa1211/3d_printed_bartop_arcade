@@ -95,7 +95,7 @@ You can start raspi-config from the RetroPie menu in EmulationStation or from th
   - 1. 先至RetroPie Setup 選 Manage packages 再選 driver
   - 2. 選 sixaxis 再選 Install from source
   - 3. 裝完後去同藍芽連線，不同的是在掃描藍芽的過程中，需要將PS3手把照畫面上指示拔插一次。
-  - 4. 退回到 EmulationStations，配置 PS3 手把按鈕對應
+  - 4. 退回到 EmulationStation，配置 PS3 手把按鈕對應
 
 # 螢幕無輸出
 * Pi4 有兩個 hdmi port，此情況優先換hdmi port 試試，官方預設以 hdmi0 port 輸出，為電源輸入旁邊的 hdmi 孔，客制化 image 可能會有變更。
