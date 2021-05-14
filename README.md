@@ -68,27 +68,37 @@
 ![image](https://user-images.githubusercontent.com/1962079/118124208-da0de500-b427-11eb-9a7e-4365331e0dc0.png)
 
 
-# 軟體部分
+# 軟體安裝
 * 推薦以下三擇一
   - [官方 Retropie 乾靜系統](https://retropie.org.uk/download/)
-  - [64gb Wolfanoz 含rom](https://www.arcadepunks.com/new-pi-4-retro-gaming-64gb-build-20-classic-gaming-systems/)
-  - [256gb Wolfanoz 含rom](https://www.arcadepunks.com/256gb-fully-loaded-supreme-pro-raspberry-pi-4-image-from-wolfanoz/)
+  - [64gb Wolfanoz 含測試rom 6000個](https://www.arcadepunks.com/new-pi-4-retro-gaming-64gb-build-20-classic-gaming-systems/)
+  - [256gb Wolfanoz 含rom 13000個](https://www.arcadepunks.com/256gb-fully-loaded-supreme-pro-raspberry-pi-4-image-from-wolfanoz/)
 * 使用 [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) 寫入即可
 
 # wifi 設定
-* 依照[官方文件](https://retropie.org.uk/docs/Wifi/)設定，請記得一定要設定 WLAN Country 為 **TW**，過程中需要輸入，建議準備藍芽鍵盤或使用USB鍵盤。
-
+* 依照[官方文件](https://retropie.org.uk/docs/Wifi/)設定，請記得要設定 WLAN Country 為 **TW**，否則 wifi 設定會失敗。
+```
+NOTE: In order to use the WiFi on the new Raspberry Pi 3 Model B+,
+you will need to first configure the WLAN Country via raspi-config. 
+It’s under menu 5 Localisation options in raspi-config.
+You can start raspi-config from the RetroPie menu in EmulationStation or from the command line with sudo raspi-config.
+```
+* wifi 設定過程中需要輸入密碼，建議先準備藍芽小鍵盤或使用USB鍵盤。
 
 # 藍芽鍵盤連線
 * [官方文件](https://retropie.org.uk/docs/Bluetooth-Controller/)
 ![image](https://user-images.githubusercontent.com/1962079/118124784-a8e1e480-b428-11eb-85ea-d17055d88af8.png)
 
 # PS3藍芽手把安裝
-* [官方文件](https://retropie.org.uk/docs/PS3-Controller/)目前推薦 sixaxis
-* 1. 先至RetroPie Setup 選 Manage packages 再選 driver
-* 2. 選 sixaxis 再選 Install from source
-* 3. 裝完後去同藍芽連線，不同的是在掃描藍芽的過程中，需要將PS3手把照畫面上指示拔插一次。
-* 4. 退回到 EmulationStations，配置 PS3 手把按鈕對應
+* [官方文件](https://retropie.org.uk/docs/PS3-Controller/)目前推薦 sixaxis 驅動，而 ps3controller 驅動對非原廠的 PS3 手把支援性可能較佳。
+* sixaxis
+  - 1. 先至RetroPie Setup 選 Manage packages 再選 driver
+  - 2. 選 sixaxis 再選 Install from source
+  - 3. 裝完後去同藍芽連線，不同的是在掃描藍芽的過程中，需要將PS3手把照畫面上指示拔插一次。
+  - 4. 退回到 EmulationStations，配置 PS3 手把按鈕對應
+
+# 螢幕無輸出
+* Pi4 有兩個 hdmi port，此情況優先換hdmi port 試試，官方預設以 hdmi0 port 輸出，為電源輸入旁邊的 hdmi 孔，客制化 image 可能會有變更。
 
 # 螢幕比例跑掉
 * 若為樹莓派輸出問題，請將 SD 卡插入 windows 系統，修改 config.txt 中的 hdmi_mode 依照螢幕的規格及[此文件](https://elinux.org/RPiconfig#Video_mode_options)給予正確設定，例如 HJ080IA-01E 是 1024x768-60Hz-4:3
