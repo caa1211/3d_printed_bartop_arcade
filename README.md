@@ -9,6 +9,8 @@
 * 推薦使用 [SpiderMaker 消光 PLA](https://www.3dspidermaker.com/categories/pla-matte-series)，台灣製造，高品質的3d列印線材。
 * [功放旋鈕](https://www.thingiverse.com/thing:3405786)
 
+![image](https://user-images.githubusercontent.com/1962079/118227856-d7f56600-b4bb-11eb-9efa-4a50cf60ed8c.png)
+
 # 零組件清單 (BOM)
 * 樹莓派4B (2gb or 4gb)
 * [8吋螢幕 HJ080IA-01E](https://item.taobao.com/item.htm?id=638855824682) (174*136mm)
