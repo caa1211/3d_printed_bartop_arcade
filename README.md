@@ -33,7 +33,7 @@
 * 包線管 (1~2m)
 
 
-# 零組件清單 (額外部分)
+# 零組件清單 - 進階部分
 * [三和搖杆](https://item.taobao.com/item.htm?id=638695112508)
 * [三和按鈕 24mm x 8](https://item.taobao.com/item.htm?id=545996014796)
 * [木製搖杆頭](https://item.taobao.com/item.htm?id=585770082174)
