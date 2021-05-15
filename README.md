@@ -101,8 +101,10 @@ You can start raspi-config from the RetroPie menu in EmulationStation or from th
   - 4. 裝完後去藍芽配對，在掃描藍芽的過程中，需要將PS3手把照畫面上指示拔插一次，顯示連上後即可將 USB 拔除。
   - 5. 退回到 EmulationStation，配置 PS3 手把按鈕對應
 
+![image](https://user-images.githubusercontent.com/1962079/118346189-3ed25800-b56c-11eb-96c4-4192587dd34a.png)
+
 # 螢幕無輸出
-* Pi4 有兩個 hdmi port，此情況優先換hdmi port 試試，官方預設以 hdmi0 port 輸出，為電源輸入旁邊的 hdmi 孔，客制化 image 可能會有變更。
+* Pi4 有兩個 hdmi port，此情況優先換hdmi port 試試，官方預設以 hdmi0 port 輸出，為電源接口旁邊的 hdmi 孔，客制化 image 可能會有變更。
 
 # 螢幕比例跑掉
 * 若為樹莓派輸出問題，請將 SD 卡插入 windows 系統，修改 config.txt 中的 hdmi_mode 依照螢幕的規格及[此文件](https://elinux.org/RPiconfig#Video_mode_options)給予正確設定，例如 HJ080IA-01E 是 1024x768-60Hz-4:3
