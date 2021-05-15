@@ -42,15 +42,17 @@
 
 # 組裝
 
-> 組裝過程需要H2.0內6角螺絲起子，這框體幾乎所有螺絲都藏在內部，空間狹小，愈小隻愈好安裝。我使用小米精修螺絲起子組可以順利安裝。
-
 ![image](https://user-images.githubusercontent.com/1962079/118122815-f3159680-b425-11eb-9ce2-a78e37b24ced.png)
+
+> 組裝過程需要H2.0內6角螺絲起子，這框體幾乎所有螺絲都藏在內部，空間狹小，愈小隻愈好安裝。使用小米精修螺絲起子或球頭L形板手可以順利安裝。
+
+![image](https://user-images.githubusercontent.com/1962079/118345740-1c8b0b00-b569-11eb-8029-33502958775a.png)
 
 > 先行測試螢幕是否正常
 
 ![image](https://user-images.githubusercontent.com/1962079/118122973-29ebac80-b426-11eb-9660-463a54f537aa.png)
 
-> 螢幕背面貼鐵氟龍或絕緣膠帶
+> 螢幕背面貼鐵氟龍或絕緣膠帶，避免背部鋼板與基板誤觸導電
 
 ![image](https://user-images.githubusercontent.com/1962079/118123008-340dab00-b426-11eb-95af-97f64ba76d95.png)
 
