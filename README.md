@@ -1,4 +1,4 @@
-# 3D列印樹莓派街機框體 
+# 3D列印樹莓派街機
 
 ![image](https://user-images.githubusercontent.com/1962079/118118085-0709ca00-b41f-11eb-91f0-dfa96a037d11.png)
 ![image](https://user-images.githubusercontent.com/1962079/118124310-fd389480-b427-11eb-8513-bbab23090852.png)
