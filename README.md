@@ -45,30 +45,29 @@
 ![image](https://user-images.githubusercontent.com/1962079/118122815-f3159680-b425-11eb-9ce2-a78e37b24ced.png)
 
 > 組裝過程需要H2.0內6角螺絲起子，這框體幾乎所有螺絲都藏在內部，空間狹小，愈小隻愈好安裝。使用小米精修螺絲起子或球頭L形板手可以順利安裝。
-
 ![image](https://user-images.githubusercontent.com/1962079/118345740-1c8b0b00-b569-11eb-8029-33502958775a.png)
 
 > 先行測試螢幕是否正常
-
 ![image](https://user-images.githubusercontent.com/1962079/118122973-29ebac80-b426-11eb-9660-463a54f537aa.png)
 
 > 螢幕背面貼鐵氟龍或絕緣膠帶，避免背部鋼板與基板誤觸導電
-
 ![image](https://user-images.githubusercontent.com/1962079/118123008-340dab00-b426-11eb-95af-97f64ba76d95.png)
 
+> 熱熔膠固定𡃤叭
 ![image](https://user-images.githubusercontent.com/1962079/118122929-20624480-b426-11eb-92eb-ac4aa4462ad9.png)
+
+> 連接搖杆芯片
 ![image](https://user-images.githubusercontent.com/1962079/118123048-41c33080-b426-11eb-8caf-267ef7245bbd.png)
 ![image](https://user-images.githubusercontent.com/1962079/118122835-fdd02b80-b425-11eb-932a-c4d0a6a243d6.png)
 ![image](https://user-images.githubusercontent.com/1962079/118122862-04f73980-b426-11eb-9eb0-d7420c961d94.png)
-![image](https://user-images.githubusercontent.com/1962079/118122883-0d4f7480-b426-11eb-899e-32fc1bbc1251.png)
+
+> 鎖上功率放大器
 ![image](https://user-images.githubusercontent.com/1962079/118122906-15a7af80-b426-11eb-9a02-6bfe34bd4818.png)
 
 > 使用包線管整理電源線
-
 ![image](https://user-images.githubusercontent.com/1962079/118123964-88655a80-b427-11eb-8659-f192703af980.png)
 
-> 最後鎖上腳墊
-
+> 最後鎖上腳墊、插入記憶卡
 ![image](https://user-images.githubusercontent.com/1962079/118124208-da0de500-b427-11eb-9a7e-4365331e0dc0.png)
 
 
