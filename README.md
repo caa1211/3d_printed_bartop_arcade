@@ -74,8 +74,8 @@
 # 軟體安裝
 * 推薦以下三擇一
   - [官方 Retropie 乾靜系統](https://retropie.org.uk/download/)
-  - [64gb Wolfanoz 測試rom 6000個](https://www.arcadepunks.com/new-pi-4-retro-gaming-64gb-build-20-classic-gaming-systems/)
-  - [256gb Wolfanoz 測試rom 13000個](https://www.arcadepunks.com/256gb-fully-loaded-supreme-pro-raspberry-pi-4-image-from-wolfanoz/)
+  - [64gb Wolfanoz](https://www.arcadepunks.com/new-pi-4-retro-gaming-64gb-build-20-classic-gaming-systems/)
+  - [256gb Wolfanoz](https://www.arcadepunks.com/256gb-fully-loaded-supreme-pro-raspberry-pi-4-image-from-wolfanoz/)
 * 使用 [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) 寫入即可
 
 # wifi 設定
