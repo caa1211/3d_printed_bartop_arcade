@@ -107,9 +107,10 @@ You can start raspi-config from the RetroPie menu in EmulationStation or from th
 * Pi4 有兩個 hdmi port，此情況優先換hdmi port 試試，官方預設以 hdmi0 port 輸出，為電源接口旁邊的 hdmi 孔，客制化 image 可能會有變更。
 
 # 螢幕比例跑掉
-* 若為樹莓派輸出問題，請將 SD 卡插入 windows 系統，修改 config.txt 中的 hdmi_mode 依照螢幕的規格及[此文件](https://elinux.org/RPiconfig#Video_mode_options)給予正確設定，例如 HJ080IA-01E 是 1024x768-60Hz-4:3
+* 若為樹莓派輸出問題，請將 SD 卡插入 windows 系統，修改 config.txt 中的 hdmi_group 及 hdmi_mode 依照螢幕的規格及[此文件](https://elinux.org/RPiconfig#Video_mode_options)給予正確設定，例如 HJ080IA-01E 是 1024x768-60Hz-4:3
 正確設定為
 ```
+hdmi_group=2
 hdmi_mode=16
 ```
 * 若為遊戲輸出的比例問題，遊戲中按下 function key + x 進入 retroarch 設定，選 Settings -> Video -> Scaling -> Aspect Ration，內有多種比例可調整，若要存為全域設定，進 Retroarch 的 Main menu 的 Configuration File，選擇 Save Current Configuration。
