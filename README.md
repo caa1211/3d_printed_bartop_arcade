@@ -119,6 +119,9 @@ hdmi_mode=16
 ```
 * 若為遊戲輸出的比例問題，遊戲中按下 function key + x 進入 retroarch 設定，選 Settings -> Video -> Scaling -> Aspect Ration，內有多種比例可調整，若要存為全域設定，進 Retroarch 的 Main menu 的 Configuration File，選擇 Save Current Configuration。
 
+# 關 On-Screen Overlay (畫面兩邊的遊戲圖片)
+* 因為 4:3 畫面幾乎都是全屏的，可在遊戲中按 function key + x 進 retroarch 選單後，至 On-Screen Overlay -> Display Overlay 關閉。
+
 # 其它注意事項
 * 螢幕預設亮度是99%，請降至50%以下，以減少四邊暗角的問題。
 * 接電源接口旁邊的hdmi以減少顯示上的問題。
