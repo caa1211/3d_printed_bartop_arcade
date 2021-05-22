@@ -122,6 +122,7 @@ hdmi_mode=16
 # 其它注意事項
 * 螢幕預設亮度是99%，請降至50%以下，以減少四邊暗角的問題。
 * 接電源接口旁邊的hdmi以減少顯示上的問題。
+* 選單上按Start -> OTHER SETTINGS -> SAVE METADATA 選 ALWAYS，才不會直接關機後最愛與最後遊玩的記錄消失。
 
 # 關於我
 * FB: caa1211
