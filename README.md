@@ -104,7 +104,7 @@ You can start raspi-config from the RetroPie menu in EmulationStation or from th
 ![image](https://user-images.githubusercontent.com/1962079/118346189-3ed25800-b56c-11eb-96c4-4192587dd34a.png)
 
 # 3.5mm 音源接頭無輸出聲音
-* 由於預設是由 hdml 輸出的，可將音源線插至螢幕驅動板，或者以下調整成強制 3.5mm 音源輸出
+* 由於預設是由 hdml 輸出的，可將音源線插至螢幕驅動板(建議)，或者以下調整成強制 3.5mm 音源輸出
 * OPTIONS -> RASPI_CONFIG -> Advance Options -> A4 Audio -> 選 Force 3.5mm headphone jack -> Ok
 
 # 螢幕無輸出
