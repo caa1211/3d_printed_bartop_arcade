@@ -99,7 +99,13 @@ You can start raspi-config from the RetroPie menu in EmulationStation or from th
   - 2. 至RetroPie Setup 選 Manage packages 再選 driver
   - 3. 選 sixaxis 再選 Install from source
   - 4. 裝完後去藍芽配對，在掃描藍芽的過程中，需要將PS3手把照畫面上指示拔插一次，顯示連上後即可將 USB 拔除。
-  - 5. 退回到 EmulationStation，配置 PS3 手把按鈕對應
+  - 5. 退回到 EmulationStation，按 Start 進 Configure input，配置 PS3 手把按鈕對應
+* ps3controller
+  - 1. `免`用USB連接
+  - 2. 至RetroPie Setup 選 Manage packages 再選 driver
+  - 3. 選 ps3controller 再選 Install from source
+  - 4. 裝完後去藍芽配對，在掃描藍芽的過程中，按下PS鈕，抓到後會自動震動
+  - 5. 退回到 EmulationStation，按 Start 進 Configure input，配置 PS3 手把按鈕對應
 
 ![image](https://user-images.githubusercontent.com/1962079/118346189-3ed25800-b56c-11eb-96c4-4192587dd34a.png)
 
