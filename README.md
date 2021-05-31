@@ -122,6 +122,13 @@ hdmi_mode=16
 # 關 On-Screen Overlay (畫面兩邊的遊戲圖片)
 * 因為 4:3 畫面幾乎都是全屏的，可在遊戲中按 function key + x 進 retroarch 選單後，至 On-Screen Overlay -> Display Overlay 關閉。
 
+# 支援中文檔名遊戲列表
+
+使用 PuTTY 登入 pi，預設帳號 pi，密碼 raspberry，登入後，執行以下指令，完成後重啟。
+```
+sudo apt-get install ttf-wqy-zenhei fonts-droid-fallback
+```
+
 # 其它注意事項
 * 螢幕預設亮度是99%，請降至50%以下，以減少四邊暗角的問題。
 * 接電源接口旁邊的hdmi以減少顯示上的問題。
