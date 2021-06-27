@@ -36,6 +36,7 @@
 
 # 電源線優化
 * [綠聯4口充電器](https://world.taobao.com/item/640618965711.htm) (若不想螢幕與樹莓派兩條電源USB線拉出)
+* [2孔電源開關線](https://item.taobao.com/item.htm?id=547929340068)
 
 # 零組件清單 - 進階部分
 * [三和搖杆](https://item.taobao.com/item.htm?id=638695112508)
